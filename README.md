@@ -4,8 +4,8 @@ Leeza is an AI-powered virtual assistant built with Python. It listens to your v
 
 ---
 leeza/<br></br>
-├── main.py
-├── README.md
+├── main.py<br></br>
+├── README.md<br></br>
 └── requirements.txt
 
 ---
