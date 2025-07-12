@@ -3,7 +3,7 @@
 Leeza is an AI-powered virtual assistant built with Python. It listens to your voice commands and responds smartly — whether it's playing a song, telling a joke, fetching info from Wikipedia, or opening websites and applications.
 
 ---
-leeza/
+leeza/<br>
 ├── main.py
 ├── README.md
 └── requirements.txt
