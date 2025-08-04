@@ -42,6 +42,5 @@ leeza/<br></br>
 1. Clone the repository or download the files.
 2. Open Command Prompt in the project folder.
 3. Run the following to install dependencies:
-
 ```bash
 pip install -r requirements.txt
