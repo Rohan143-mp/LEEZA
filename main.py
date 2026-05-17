@@ -20,6 +20,7 @@ def take_command():
     command = ""
 
     try:
+        
         with sr.Microphone() as source:
             print("Listening...")
             voice = listener.listen(source)
