@@ -15,22 +15,28 @@ def talk(text):
     engine.say(text)
     engine.runAndWait()
 
-
+#Code modified on 18/5/2026
 def take_command():
+    command = ""
+
     try:
         with sr.Microphone() as source:
-            print('listening...')
+            print("Listening...")
             voice = listener.listen(source)
+
             command = listener.recognize_google(voice)
             command = command.lower()
-            if 'liza' in command:
-                command = command.replace('liza', '')
+
+            if "liza" in command:
+                command = command.replace("liza", "")
+                command = command.strip()
                 print(command)
-    except:
-        pass
+
+    except Exception as e:
+        print("Sorry, I could not understand.")
+        print(e)
+
     return command
-
-
 def run_liza():
     command = take_command()
     print(command)
