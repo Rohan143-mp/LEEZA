@@ -36,9 +36,9 @@ def take_command():
     except Exception as e:
         print("Sorry, I could not understand.")
         print(e)
-
     return command
 def run_liza():
+    
     command = take_command()
     print(command)
     if 'play' in command:
