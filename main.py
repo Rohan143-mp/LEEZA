@@ -5,10 +5,11 @@ import datetime
 import wikipedia
 import pyjokes
 
+#code modified on 25/06/2026
 listener = sr.Recognizer()
 engine = pyttsx3.init()
-# voices = engine.getProperty('voices')
-# engine.setProperty('voice', voices[1].id)
+voices = engine.getProperty('voices')
+engine.setProperty('voice', voices[1].id)
 
 
 def talk(text):
