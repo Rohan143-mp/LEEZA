@@ -10,13 +10,13 @@ leeza/<br></br>
 └── requirements.txt
 
 ---
-🧪 Sample Commands
--.Leeza play [song name]
--.Leeza what’s the time?
--.Leeza who is [person]
--.Leeza tell me a joke
--.Leeza open YouTube
--.Leeza open local disk D
+## 🧪 Sample Commands
+-Leeza play [song name]
+-Leeza what’s the time?
+-Leeza who is [person]
+-Leeza tell me a joke
+-Leeza open YouTube
+-Leeza open local disk D
 ---
 
 ## 🧩 Features
