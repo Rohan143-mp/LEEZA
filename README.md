@@ -11,12 +11,12 @@ leeza/<br></br>
 
 ---
 🧪 Sample Commands
-“-.Leeza play [song name]”
-“-.Leeza what’s the time?”
-“-.Leeza who is [person]”
-“-.Leeza tell me a joke”
-“-.Leeza open YouTube”
-“-.Leeza open local disk D”
+-.Leeza play [song name]
+-.Leeza what’s the time?
+-.Leeza who is [person]
+-.Leeza tell me a joke
+-.Leeza open YouTube
+-.Leeza open local disk D
 ---
 
 ## 🧩 Features
